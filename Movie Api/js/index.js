@@ -1,5 +1,5 @@
 let icon = document.getElementById("demo")
-let movieContainer = document.getElementById("hambozo")
+let movieContainer = document.getElementById("Movies")
 
 $("#sidebar").animate({ left: `-${$("#linkBox").outerWidth()}` }, 0)
     $('a').eq(0).animate({ bottom: `-${$('a').eq(0).outerHeight()}` }, 0, ()=>{
