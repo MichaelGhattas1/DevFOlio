@@ -1,0 +1,648 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+   
+   
+}
+#navbarSupportedContent
+{
+    background-color: #000000 !important;
+}
+#navbarSupportedContent:hover
+{
+    background-color: rgba( 255,255, 255, 0.5) !important ;
+    
+}
+nav 
+{
+    max-height: 60px !important;
+}
+li a:after
+{
+    content: '';
+    position: absolute;
+    left: 5px;
+    bottom:0;
+    border-radius: 4px;
+    background-color:#fff;
+    width: 0;
+    height: 5px;
+    z-index:444 ;
+    transition: width .5s ease;
+}
+li:hover a:after
+{
+    content: '';
+    position: absolute;
+    left: 5px;
+    bottom:0;
+    border-radius: 4px;
+    background-color:#fff;
+    width: 70%;
+    height: 5px;
+    z-index:444 ;
+    transition: width .5s ease;
+}
+.drop-hover:hover
+{
+    color:red !important
+}
+
+.bg-red
+{
+    background-color: red;
+}
+
+.home {
+    position: relative;
+    height: 100vh;
+    background-image: url(../DevFolio/intro-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    color: #fff !important;
+}
+
+.home h1
+{
+    color: #fff !important;
+}
+.filter {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.logo a {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.navbar
+{
+    z-index: 9999999999999999;
+}
+
+.navbar a {
+    color: #fff !important;
+    position: relative;
+   
+}
+
+.dropdown-divider {
+    height: 2px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-weight: 900 !important;
+    width: 60% !important;
+    color: #fff !important;
+    border-top: 1px solid rgba(255, 255, 255) !important;
+}
+
+.dropdown a {
+    color: #FFF!important;
+}
+
+.dropdown span {
+    color: #fff !important;
+}
+
+.nav-item {
+    color: #FFF !important;
+    padding: 5px !important;
+}
+
+.dropdown-item a {
+    color: black !important;
+}
+
+.navbar-toggler {
+
+    background-color: #fff !important;
+    padding: 0 .5rem !important;
+    margin: .5rem 2rem !important;
+    top:1%
+}
+
+.dropdown-menu a {
+    color: black !important;
+}
+
+.center h1 {
+    padding-top: 3rem;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.h ::after {
+    content: "";
+    animation: dev 15s infinite;
+}
+.h p 
+{
+    padding: 0;
+
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+@keyframes dev {
+    0% {
+        content: "| ";
+    }
+    1% {
+        content: " F|";
+    }
+    3% {
+        content: "Fr|";
+    }
+    4% {
+        content: "Fre|";
+    }
+    5% {
+        content: "Free|";
+    }
+    6% {
+        content: "Freel|";
+    }
+    7% {
+        content: "Freela|";
+    }
+    8% {
+        content: " Freelan|";
+    }
+    9% {
+        content: "Freelanc|";
+    }
+    10% {
+        content: "Freelance|";
+    }
+    11% {
+        content: " Freelancer.|";
+    }
+    12% {
+        content: " Freelancer.  ";
+    }
+    13% {
+        content: "Freelancer.|";
+    }
+    14% {
+        content: " Freelanc|";
+    }
+    15% {
+        content: " Freelan|";
+    }
+    16% {
+        content: " Freela|";
+    }
+    17% {
+        content: "Freel|";
+    }
+    18% {
+        content: "Free|";
+    }
+    19% {
+        content: "Fre|";
+    }
+    20% {
+        content: "Fr|";
+    }
+    21% {
+        content: "F|";
+    }
+    22% {
+        content: "|";
+    }
+    23% {
+        content: "P|";
+    }
+    24% {
+        content: "Ph|";
+    }
+    25% {
+        content: "Pho|";
+    }
+    26% {
+        content: "Phot|";
+    }
+    27% {
+        content: "Photo|";
+    }
+    28% {
+        content: "Photog|";
+    }
+    29% {
+        content: "Photogr|";
+    }
+    30% {
+        content: "Photogra|";
+    }
+    31% {
+        content: "Photograp|";
+    }
+    32% {
+        content: "Photograph|";
+    }
+    33% {
+        content: "Photographe|";
+    }
+    34% {
+        content: "Photographer.|";
+    }
+    35% {
+        content: "Photographer.";
+    }
+    36% {
+        content: "Photographer.|";
+    }
+    37% {
+        content: "Photographe|";
+    }
+    38% {
+        content: "Photograph|";
+    }
+    39% {
+        content: "Photograp|";
+    }
+    40% {
+        content: "Photogra|";
+    }
+    41% {
+        content: "Photogr|";
+    }
+    42% {
+        content: "Photog|";
+    }
+    43% {
+        content: "Photo|";
+    }
+    44% {
+        content: "Phot|";
+    }
+    45% {
+        content: "Pho|";
+    }
+    46% {
+        content: "Ph|";
+    }
+    47% {
+        content: "P|";
+    }
+    48% {
+        content: "|";
+    }
+    49% {
+        content: "D|";
+    }
+    50% {
+        content: "De|";
+    }
+    51% {
+        content: "Des|";
+    }
+    52% {
+        content: "Desi|";
+    }
+    53% {
+        content: "Desig|";
+    }
+    54% {
+        content: "Design|";
+    }
+    55% {
+        content: "Designe|";
+    }
+    56% {
+        content: "Designer.|";
+    }
+    57% {
+        content: "Designer. ";
+    }
+    58% {
+        content: "Designe|";
+    }
+    59% {
+        content: "Design|";
+    }
+    60% {
+        content: "Desig|";
+    }
+    61% {
+        content: "Des|";
+    }
+    62% {
+        content: "De|";
+    }
+    63% {
+        content: "De|"
+    }
+    65% {
+        content: "Dev|"
+    }
+    67% {
+        content: "Deve|"
+    }
+    69% {
+        content: "Devel|"
+    }
+    71% {
+        content: "Develo|"
+    }
+    74% {
+        content: "Develop|"
+    }
+    76% {
+        content: "Develope|"
+    }
+    78% {
+        content: "Developer|"
+    }
+    80% {
+        content: "Developer"
+    }
+    82% {
+        content: "Developer|"
+    }
+    84% {
+        content: "Developer|"
+    }
+    86% {
+        content: "Develope|"
+    }
+    88% {
+        content: "Develop|"
+    }
+    90% {
+        content: "Develo|"
+    }
+    92% {
+        content: "Devel|"
+    }
+    94% {
+        content: "Deve|"
+    }
+    95% {
+        content: "Dev|"
+    }
+    97% {
+        content: "De|"
+    }
+    99% {
+        content: "D|"
+    }
+    100% {
+        content: "|"
+    }
+}
+.container 
+{
+    background-color: #FFF !important;
+}
+.imge img 
+{
+    width: 100% ;
+    border-radius: 5px;
+}
+.personal-data ul 
+{
+    list-style-type: none;
+    color: #4e4e4e;
+}
+.personal-data span
+{
+    font-weight: 700;
+}
+.personal-data li
+{
+    padding-top: 1.5rem;
+}
+.skills p ,.abou 
+{
+    color: #1e1e1e ;
+}
+.my-color
+{
+    color: #4e4e4e !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #1e1e1e;
+}
+.line
+{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+.icon-service
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #0078ff;
+    transition: all 1s ease ;
+}
+
+.bg-whithe
+{
+    background-color: #fff !important;
+}
+.br-20
+{
+    border-radius: 20px;
+}
+.service-item:hover .icon-service
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #cde1f8 ;
+    color: #fff;
+    background-color: #0078ff ;
+}
+.paragraph-P
+{
+    font-size:.95rem !important ;
+}
+.chair
+{ 
+    position: relative;
+    width: 100%;
+    background-image: url(../DevFolio/post-3.jpg);
+    background-size:  cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff !important;
+    text-align: center;
+}
+.blue-layer
+{   
+
+    background-color: rgba( 0, 120, 255, 0.5);
+
+}
+
+.icon-service1
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #cde1f8 !important ;
+    transition: all 1s ease ;
+    z-index: 4;
+}
+.c-white
+{
+    color: #fff !important;
+}
+.my-bg 
+{
+    background-color: #0078ff;
+    
+}
+.cir
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border : 5px solid #0078ff ;
+}
+.img-container
+{
+    overflow: hidden;
+}
+.img-container img
+{
+    width: 100%;
+    transform: scale(1);
+    transition: all 1s ease ;
+}
+.work-item:hover .img-container img
+{
+    transform: scale(2);
+}
+.workk .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.slider 
+{
+    width: 100%;
+    background-image: url(../DevFolio/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.tr
+{
+    background-color: transparent !important;
+}
+.z
+{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.slide-caption h3
+{
+    color: #fff !important;
+}
+.carousel-indicators button
+{
+    width: 10px !important;
+    height:  10px !important;
+    border-radius: 50% !important;
+    background-color: #fff!important;
+}
+.carousel-item img 
+{
+    width: 200px;
+    height: 200px;
+}
+
+.carousel-item
+{
+    width: 80% !important;
+}
+.fs-125
+{
+   font-size: 1.25rem !important;
+}
+.hi-20 
+{
+    height: 25px !important;
+}
+.icont
+{
+    width: 40px;
+    height: 40px;
+   
+}
+.icont img 
+{
+    width: 100%;
+    border-radius: 50%;
+}
+.fs-8
+{
+   font-size: 2px !important;
+}
+.af::after
+{
+    content: 'Morgan freeman';
+    cursor: pointer;
+}
+
+.hi-80
+{
+    height: 80px;
+}
+.ff
+{   
+    margin-right: 10px;
+    color:#0078ff ;
+}
+.i-container
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 4px solid #0078ff ;
+    transition: all 1s ease;
+}
+.i-container:hover 
+{
+    background-color: #0078ff !important ;
+    border: 2px solid #cde1f8;
+}
+.i-container:hover i
+{
+    color: #fff !important ;
+}
+.footer .container
+{
+    background-color: #0062d3 !important;
+}
+.footer 
+{
+    background-color: #0062d3 !important;
+}
+.btn
+{
+    transition: all 1s ease;
+
+}
+.btn
+{
+    border: 5px solid #cde1f8 ;
+}
+
